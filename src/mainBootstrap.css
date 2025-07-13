@@ -1,0 +1,28 @@
+.fonte-tela-pedidos {
+    font-family: "Bungee", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.fonte-pedido-finalizado {
+    font-size: 8em;
+    font-family: "Bungee", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.blink {
+  animation: blink 2s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
